@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "homepage": "."
+
   },
   "dependencies": {
     "@solana/web3.js": "^1.98.0",
