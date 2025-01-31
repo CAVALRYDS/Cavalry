@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cavalyr - Real-time Solana Wallet Checker. Monitor your wallet balance and transactions effortlessly.">
+    <title>Cavalyr - Solana Wallet Health</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #00f7ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #root {
+            text-align: center;
+            animation: glow 1.5s infinite alternate;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff, 0 0 30px #00f7ff;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            text-shadow: 0 0 5px #00f7ff, 0 0 10px #00f7ff;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff, 0 0 30px #00f7ff;
+            }
+            to {
+                text-shadow: 0 0 20px #00f7ff, 0 0 40px #00f7ff, 0 0 60px #00f7ff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <h1>Cavalyr</h1>
+        <p>Real-time Solana Wallet Checker</p>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
